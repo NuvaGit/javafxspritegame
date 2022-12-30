@@ -11,8 +11,8 @@ public void set(double x, double y) {
 	this.x = x;
 	this.y = y;
 }
-public void add(double x,double y) {
-	this.x += x;
+public void add(double dx,double dy) {
+	this.x += dx;
 	this.y += y;
 }
 public void add(Vector other) {
@@ -22,4 +22,5 @@ public void multiply(double m) {
 	this.x *= m;
 	this.y *= m;
 }
+
 }
